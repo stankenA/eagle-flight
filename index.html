@@ -13,38 +13,45 @@
 
 <body class="page">
   <header class="header">
-    <img src="#" alt="Логотип Eagle Flight" class="header__logo">
+    <img src="./images/eagle-flight.svg" alt="Логотип Eagle Flight" class="header__logo">
     <nav class="header__menu-container">
       <ul class="header__menu">
-        <li class="header__menu-item">
+        <li class="header__menu-item header__menu-item_dropdown">
           <a href="#" class="header__link">о нас</a>
           <ul class="header__dropdown">
             <li class="header__menu-item"><a href="#" class="header__link">FAQ</a></li>
             <li class="header__menu-item"><a href="#" class="header__link">Как заказать</a></li>
           </ul>
         </li>
-        <li class="header__menu-item"><a href="#" class="header__link"></a></li>
-        <li class="header__menu-item"><a href="#" class="header__link"></a></li>
+        <li class="header__menu-item"><a href="#" class="header__link">флот</a></li>
+        <li class="header__menu-item"><a href="#" class="header__link">контакты</a></li>
       </ul>
     </nav>
     <div class="header__contacts">
       <p class="header__number">+7 (985) 811-22-22</p>
-      <img src="#" alt="Логотип Telegram" class="header__social-icon">
-      <img src="#" alt="Логотип WhatsApp" class="header__social-icon">
-      <img src="#" alt="Логотип Instagram" class="header__social-icon">
+      <a href="#" class="header__social-link"><img src="./images/telegram.svg" alt="Логотип Telegram"
+          class="header__social-icon"></a>
+      <a href="#" class="header__social-link"><img src="./images/whatsapp.svg" alt="Логотип WhatsApp"
+          class="header__social-icon"></a>
+      <a href="#" class="header__social-link"><img src="./images/instagram.svg" alt="Логотип Instagram"
+          class="header__social-icon"></a>
     </div>
   </header>
 
   <main class="content">
     <section class="intro">
+      <span class="intro__clouds"></span>
       <h1 class="intro__title">АРЕНДА САМОЛЕТА</h1>
       <div class="intro__container">
         <p class="intro__txt">универсальность</p>
+        <span class="intro__line"></span>
         <p class="intro__txt">пунктуальность</p>
+        <span class="intro__line"></span>
         <p class="intro__txt">надежность</p>
+        <span class="intro__line"></span>
         <p class="intro__txt">персональный подход</p>
       </div>
-      <button type="submit" class="intro__rent">арендовать</button>
+      <button type="submit" class="intro__rent button">арендовать</button>
     </section>
   </main>
 </body>
