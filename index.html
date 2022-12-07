@@ -95,13 +95,22 @@
           </li>
         </ul>
         <div class="plane__buttons">
-          <button type="button" class="plane__button plane__button_exterior plane__button_active">экстерьер</button>
-          <button type="button" class="plane__button plane__button_interior">интерьер</button>
+          <button type="button" class="plane__button plane__button_first plane__button_active">экстерьер</button>
+          <button type="button" class="plane__button plane__button_second">интерьер</button>
           <span class="plane__button-focus"></span>
         </div>
         <div class="plane__block plane__block_active plane__block_exterior">
           <div class="plane__swiper swiper">
             <ul class="plane__wrapper swiper-wrapper">
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
               <li class="plane__swiper-slide swiper-slide">
                 <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
               </li>
@@ -126,6 +135,9 @@
               <li class="plane__swiper-slide swiper-slide">
                 <img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
               </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
             </ul>
             <span class="plane__pagination plane__pagination_exterior"></span>
           </div>
@@ -140,9 +152,21 @@
     </section>
     <section class="map">
       <div class="map__content">
-        <div class="map__map-block">
-          <iframe frameborder="0"></iframe>
-          <button type="button" class="map__fz-btn"></button>
+        <div class="map__maps">
+          <div class="map__map-block map__map-block_active map__map-block_comfort">
+            <img src="./images/comfort.svg" alt="Карта Комфорт" class="map__photo">
+            <button type="button" class="map__fz-btn"></button>
+          </div>
+          <div class="map__map-block map__map-block_max">
+            <img src="./images/max.svg" alt="Карта Комфорт" class="map__photo">
+            <button type="button" class="map__fz-btn"></button>
+          </div>
+          <div class="map__popup map__popup_type_fz-photo">
+            <div class="map__popup-container">
+              <img class="map__popup-img">
+              <button type="button" class="map__popup-close" aria-label="Кнопка закрытия попапа"></button>
+            </div>
+          </div>
         </div>
         <div class="map__container">
           <h2 class="map__title">
@@ -153,21 +177,63 @@
           </p>
           <p class="map__distance">дальность</p>
           <div class="map__buttons">
-            <button class="map__button">комфорт</button>
-            <button class="map__button">максимум</button>
-            <span class="map__focus"></span>
+            <button class="map__button map__button_active map__button_first">комфорт</button>
+            <button class="map__button map__button_second">максимум</button>
+            <span class="map__button-focus"></span>
           </div>
-          <ul class="map__txt-block">
-            <li class="map__txt"></li>
-            <li class="map__txt"></li>
-            <li class="map__txt"></li>
-            <li class="map__txt"></li>
-            <li class="map__txt"></li>
-          </ul>
+          <div class="map__slider">
+            <ul class="map__block map__block_active map__block_comfort">
+              <li class="map__txt">Набережные Челны</li>
+              <li class="map__txt">Санкт-Петербург</li>
+              <li class="map__txt">Великий Новгород</li>
+              <li class="map__txt">Ростов-на-Дону</li>
+              <li class="map__txt">Йошкар-Ола</li>
+              <li class="map__txt">Чебоксары</li>
+              <li class="map__txt">Архангельск</li>
+              <li class="map__txt">Муром</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+              <li class="map__txt">Самара</li>
+            </ul>
+            <ul class="map__block map__block_max">
+              <li class="map__txt">Москва</li>
+              <li class="map__txt">Астрахань</li>
+              <li class="map__txt">Ставрополь</li>
+              <li class="map__txt">Владикавказ</li>
+              <li class="map__txt">Адлер</li>
+              <li class="map__txt">Краснодар</li>
+              <li class="map__txt">Симферополь</li>
+              <li class="map__txt">Евпатория</li>
+              <li class="map__txt">Оренбург</li>
+              <li class="map__txt">Магнитогорск</li>
+              <li class="map__txt">Челябинск</li>
+              <li class="map__txt">Тюмень</li>
+              <li class="map__txt">Нижний Тагил</li>
+              <li class="map__txt">Ханты-Мансийск</li>
+            </ul>
+          </div>
+          <button type="button" class="map__rent">арендовать самолет</button>
         </div>
       </div>
     </section>
+    <section class="features">
+      <h2 class="features__title">Наши преимущества</h2>
+    </section>
   </main>
+  <footer class="footer">
+
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="./scripts/swiper.js"></script>
   <script src="./scripts/index.js"></script>
