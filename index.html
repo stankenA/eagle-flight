@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eagle Flight</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
   <link rel="stylesheet" href="./vendor/fonts/fonts.css">
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,7 +18,8 @@
     <!-- <span class="header__stars"></span> -->
     <span class="header__mini-cloud"></span>
     <div class="header__container">
-      <img src="./images/eagle-flight.svg" alt="Логотип Eagle Flight" class="header__logo">
+      <a href="#" class="header__logo-link"><img src="./images/eagle-flight.svg" alt="Логотип Eagle Flight"
+          class="header__logo"></a>
       <nav class="header__menu-container">
         <ul class="header__menu">
           <li class="header__menu-item header__menu-item_dropdown">
@@ -57,10 +59,118 @@
   </header>
 
   <main class="content">
-    <section class="intro">
-      .
+    <section class="plane">
+      <div class="plane__container">
+        <h2 class="plane__title">CESSNA 421 GOLDEN EAGLE</h2>
+        <ul class="plane__chars">
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">длина</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">11,1 м</p>
+          </li>
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">размах крыльев</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">12,64 м</p>
+          </li>
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">количество мест</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">4-5</p>
+          </li>
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">максимальная высота полета</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">7500 м</p>
+          </li>
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">максимальная скорость</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">440 км/ч</p>
+          </li>
+          <li class="plane__chars-row">
+            <p class="plane__chars-txt">максимальная дальность полета</p>
+            <span class="plane__line"></span>
+            <p class="plane__chars-txt">2000 км</p>
+          </li>
+        </ul>
+        <div class="plane__buttons">
+          <button type="button" class="plane__button plane__button_exterior plane__button_active">экстерьер</button>
+          <button type="button" class="plane__button plane__button_interior">интерьер</button>
+          <span class="plane__button-focus"></span>
+        </div>
+        <div class="plane__block plane__block_active plane__block_exterior">
+          <div class="plane__swiper swiper">
+            <ul class="plane__wrapper swiper-wrapper">
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+            </ul>
+            <span class="plane__pagination plane__pagination"></span>
+          </div>
+          <span class="plane__swiper-button plane__swiper-button_next"></span>
+          <span class="plane__swiper-button plane__swiper-button_prev"></span>
+        </div>
+        <div class="plane__block plane__block_interior">
+          <div class="plane__swiper swiper">
+            <ul class="plane__wrapper swiper-wrapper">
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+              <li class="plane__swiper-slide swiper-slide">
+                <img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+              </li>
+            </ul>
+            <span class="plane__pagination plane__pagination_exterior"></span>
+          </div>
+          <span class="plane__swiper-button plane__swiper-button_next"></span>
+          <span class="plane__swiper-button plane__swiper-button_prev"></span>
+        </div>
+      </div>
+      <div class="plane__scheme">
+        <img src="./images/scheme__1.svg" alt="Схема самолёта" class="plane__scheme-1">
+        <img src="./images/scheme__2.svg" alt="Схема кабины" class="plane__scheme-2">
+      </div>
+    </section>
+    <section class="map">
+      <div class="map__content">
+        <div class="map__map-block">
+          <iframe frameborder="0"></iframe>
+          <button type="button" class="map__fz-btn"></button>
+        </div>
+        <div class="map__container">
+          <h2 class="map__title">
+            География полетов
+          </h2>
+          <p class="map__subtitle">
+            Наш флот доступен для аренды в любое направление по предварительному согласованию.
+          </p>
+          <p class="map__distance">дальность</p>
+          <div class="map__buttons">
+            <button class="map__button">комфорт</button>
+            <button class="map__button">максимум</button>
+            <span class="map__focus"></span>
+          </div>
+          <ul class="map__txt-block">
+            <li class="map__txt"></li>
+            <li class="map__txt"></li>
+            <li class="map__txt"></li>
+            <li class="map__txt"></li>
+            <li class="map__txt"></li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/swiper.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>
