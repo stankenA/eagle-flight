@@ -693,4 +693,130 @@
   opacity: .8;
 }
 
-.features {}
+.features {
+  padding-top: 109px;
+  max-width: 674px;
+  margin: 0 auto;
+}
+
+.features__title {
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 89%;
+  background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 0 auto 86px;
+  max-width: 658px;
+}
+
+.features__list {
+  margin: 0 0 91px;
+  list-style: none;
+  padding: 0;
+}
+
+.features__list-item {
+  margin-bottom: 60px;
+}
+
+.features__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features__subtitle {
+  margin: 25px auto 25px;
+  max-width: 197px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 89%;
+  background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.features__block {
+  padding: 17px 0 17px 11px;
+  border-left: 1px solid #fff;
+}
+
+.features__txt {
+  margin: 0 0 23px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.features__benefits {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.features__benefit {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 23px;
+}
+
+.features__benefit:last-of-type {
+  margin-bottom: 0;
+}
+
+.features__questions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.features__txt-qst {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 89%;
+}
+
+.features__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #00223C;
+  width: 116px;
+  height: 45px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 89%;
+  background-color: #fff;
+  margin-left: 97px;
+  transition: all .4s ease;
+}
+
+.features__link:hover {
+  opacity: .7;
+}
+
+.features__button {
+  width: 228px;
+  height: 45px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 89%;
+  padding: 0;
+  border: none;
+  margin-left: 26px;
+  transition: all .4s ease;
+  cursor: pointer;
+}
+
+.features__button:hover {
+  opacity: .7;
+}
