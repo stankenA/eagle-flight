@@ -54,7 +54,7 @@
         <span class="header__line"></span>
         <p class="header__txt">персональный подход</p>
       </div>
-      <button type="submit" class="header__rent button">арендовать</button>
+      <button type="submit" class="header__rent button popup-btn">арендовать</button>
     </div>
   </header>
 
@@ -223,7 +223,7 @@
               <li class="map__txt">Ханты-Мансийск</li>
             </ul>
           </div>
-          <button type="button" class="map__rent">арендовать самолет</button>
+          <button type="button" class="map__rent popup-btn">арендовать самолет</button>
         </div>
       </div>
     </section>
@@ -354,7 +354,7 @@
       <div class="features__questions">
         <p class="features__txt-qst">Остались вопросы?</p>
         <a href="#" class="features__link">F.A.Q.</a>
-        <button class="features__button button">позвонить</button>
+        <button class="features__button button popup-btn">позвонить</button>
       </div>
     </section>
   </main>
@@ -384,6 +384,26 @@
       </div>
     </div>
   </footer>
+  <div class="popup popup_type_form">
+    <div class="popup__container">
+      <div class="popup__content">
+        <h2 class="popup__title">Оставьте заявку</h2>
+        <p class="popup__subtitle">Наш менеджер свяжется с Вами для уточнения всех деталей</p>
+        <form name="popup-form" class="popup__form">
+          <fieldset class="popup__form-container">
+            <label for="name" class="popup__label">Имя</label>
+            <input type="text" class="popup__input popup__input_type_name" placeholder="Сергей Воронцов" name="name">
+            <label for="phone" class="popup__label">Номер телефона</label>
+            <input type="number" class="popup__input popup__input_type_phone" placeholder="+7 (999) 999-99-99"
+              name="phone">
+            <button type="submit" class="popup__button">отправить</button>
+          </fieldset>
+          <a href="#" class="popup__link">Политика обработки данных</a>
+        </form>
+      </div>
+      <button type="button" class="popup__close"></button>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="./scripts/swiper.js"></script>
   <script src="./scripts/index.js"></script>
