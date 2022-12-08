@@ -8,6 +8,14 @@
   min-height: 100vh;
 }
 
+.header {
+  position: relative;
+  overflow: hidden;
+  background: url(./images/header__clouds_1.png) no-repeat top 157% left 60% / 2389px 1004px,
+    url(./images/stars.png) no-repeat;
+  margin-bottom: 107px;
+}
+
 .header__container {
   position: relative;
   z-index: 4;
@@ -109,13 +117,6 @@
   margin-left: 22px;
 }
 
-.header {
-  position: relative;
-  overflow: hidden;
-  background: url(./images/header__clouds_1.png) no-repeat top 157% left 60% / 2389px 1004px;
-  margin-bottom: 107px;
-}
-
 .header__clouds {
   position: absolute;
   top: -232px;
@@ -143,16 +144,6 @@
   width: 1538px;
   height: 906px;
   z-index: 2;
-}
-
-.header__stars {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1576px;
-  height: 947px;
-  z-index: -1;
-  background: url(./images/stars.png) no-repeat;
 }
 
 .header__content {
