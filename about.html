@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Flight</title>
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="page">
+    <header class="header header_page_about">
+        <div class="header__container">
+            <a href="./index.html" class="header__logo-link"><img src="./images/eagle-flight.svg"
+                    alt="Логотип Eagle Flight" class="header__logo"></a>
+            <nav class="header__menu-container">
+                <ul class="header__menu">
+                    <li class="header__menu-item header__menu-item_dropdown">
+                        <a href="./about.html" class="header__link">о нас</a>
+                        <ul class="header__dropdown">
+                            <li class="header__menu-item"><a href="#" class="header__link">FAQ</a></li>
+                            <li class="header__menu-item"><a href="#" class="header__link">Как заказать</a></li>
+                        </ul>
+                    </li>
+                    <li class="header__menu-item"><a href="#" class="header__link">флот</a></li>
+                    <li class="header__menu-item"><a href="#" class="header__link">контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__contacts">
+                <p class="header__number">+7 (985) 811-22-22</p>
+                <a href="#" class="header__social-link"><img src="./images/telegram.svg" alt="Логотип Telegram"
+                        class="header__social-icon"></a>
+                <a href="#" class="header__social-link"><img src="./images/whatsapp.svg" alt="Логотип WhatsApp"
+                        class="header__social-icon"></a>
+                <a href="#" class="header__social-link"><img src="./images/instagram.svg" alt="Логотип Instagram"
+                        class="header__social-icon"></a>
+            </div>
+        </div>
+        <h1 class="header__title header__title_page_about">О нас</h1>
+    </header>
+
+    <main class="content">
+        <section class="about">
+            <a href="./index.html" class="about__logo-link"><img src="./images/eagle-flight.svg"
+                    alt="Логотип Eagle Flight" class="about__logo"></a>
+            <div class="about__container">
+                <p class="about__txt">С другой стороны начало повседневной работы по формированию позиции влечет за
+                    собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
+                    Товарищи! постоянный количественный рост и сфера нашей активности играет важную роль в формировании
+                    новых предложений. Идейные соображения высшего порядка, а также сложившаяся структура организации
+                    позволяет выполнять важные задания по разработке модели развития. Не следует, однако забывать, что
+                    постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение
+                    направлений прогрессивного развития.</p>
+                <p class="about__txt">Идейные соображения высшего порядка, а также постоянный количественный рост и
+                    сфера нашей активности способствует подготовки и реализации направлений прогрессивного развития.</p>
+                <p class="about__txt">Повседневная практика показывает, что постоянное информационно-пропагандистское
+                    обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании
+                    позиций, занимаемых участниками в отношении поставленных задач.</p>
+                <div class="about__info">
+                    <img src="./images/about__photo.jpg" alt="Фото человека" class="about__photo">
+                    <div class="about__ceo">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logos">
+                <img src="./images/footer__logo-1.png" alt="Логотип Eagle Flight" class="footer__logo-1">
+                <a href="./index.html" class="footer__link"><img src="./images/footer__logo-2.svg"
+                        alt="Логотип Eagle Flight" class="footer__logo-2"></a>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a href="./about.html" class="footer__link">о нас</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__link">флот</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__link">контакты</a></li>
+                    <li class="footer__menu-item"><a href="#" class="footer__link">f.a.q.</a></li>
+                </ul>
+            </nav>
+            <div class="footer__contacts">
+                <p class="footer__number">+7 (985) 811-22-22</p>
+                <a href="#" class="footer__social-link"><img src="./images/footer__telagram.svg" alt="Логотип Telegram"
+                        class="footer__social-icon"></a>
+                <a href="#" class="footer__social-link"><img src="./images/footer__whatsapp.svg" alt="Логотип WhatsApp"
+                        class="footer__social-icon"></a>
+                <a href="#" class="footer__social-link"><img src="./images/footer__instagram.svg"
+                        alt="Логотип Instagram" class="footer__social-icon"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="popup popup_type_form">
+        <div class="popup__container">
+            <div class="popup__content">
+                <h2 class="popup__title">Оставьте заявку</h2>
+                <p class="popup__subtitle">Наш менеджер свяжется с Вами для уточнения всех деталей</p>
+                <form name="popup-form" class="popup__form">
+                    <fieldset class="popup__form-container">
+                        <label for="name" class="popup__label">Имя</label>
+                        <input type="text" class="popup__input popup__input_type_name" placeholder="Сергей Воронцов"
+                            name="name">
+                        <label for="phone" class="popup__label">Номер телефона</label>
+                        <input type="number" class="popup__input popup__input_type_phone"
+                            placeholder="+7 (999) 999-99-99" name="phone">
+                        <button type="submit" class="popup__button">отправить</button>
+                    </fieldset>
+                    <a href="#" class="popup__link">Политика обработки данных</a>
+                </form>
+            </div>
+            <button type="button" class="popup__close"></button>
+        </div>
+    </div>
+    <script src="./scripts/form.js"></script>
+</body>
+
+</html>

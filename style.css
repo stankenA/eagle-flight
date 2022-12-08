@@ -11,9 +11,17 @@
 .header {
   position: relative;
   overflow: hidden;
+  margin-bottom: 107px;
+}
+
+.header_page_index {
   background: url(./images/header__clouds_1.png) no-repeat top 157% left 60% / 2389px 1004px,
     url(./images/stars.png) no-repeat center;
-  margin-bottom: 107px;
+}
+
+.header_page_about {
+  margin-bottom: 85px;
+  background: url(./images/stars.png) no-repeat top -1061px left 25%;
 }
 
 .header__container {
@@ -154,18 +162,28 @@
 .header__title {
   position: relative;
   z-index: 4;
-  margin: 90px 0 319px;
+  margin: 90px auto 319px;
   max-width: 687px;
   font-weight: 100;
   font-size: 128px;
   line-height: 89%;
-  float: right;
-  text-align: right;
   background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.header__title_page_index {
+  float: right;
+  text-align: right;
+}
+
+.header__title_page_about {
+  max-width: 379px;
+  margin: 125px auto 0;
+  padding-bottom: 73px;
+  border-bottom: 1px solid #fff;
 }
 
 .header__txt-block {
@@ -1050,4 +1068,43 @@
 
 .popup__close:hover {
   opacity: .6;
+}
+
+.about__logo-link {
+  text-decoration: none;
+  width: 307px;
+  margin: 0 auto 70px;
+  display: block;
+}
+
+.about__logo {
+  width: 100%;
+}
+
+.about__container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.about__txt {
+  width: 100%;
+  margin: 0 0 25px;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.about__txt:last-of-type {
+  margin-bottom: 0;
+}
+
+.about__info {
+  margin-top: 71px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__photo {
+  border-radius: 10px;
 }
