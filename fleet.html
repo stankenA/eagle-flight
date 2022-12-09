@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eagle Flight</title>
+	<link rel="stylesheet" href="./vendor/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./vendor/fonts/fonts.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="page">
+	<header class="header header_page_other">
+		<div class="header__container">
+			<a href="./index.html" class="header__logo-link"><img src="./images/eagle-flight.svg"
+					alt="Логотип Eagle Flight" class="header__logo"></a>
+			<nav class="header__menu-container">
+				<ul class="header__menu">
+					<li class="header__menu-item header__menu-item_dropdown">
+						<a href="./about.html" class="header__link">о нас</a>
+						<ul class="header__dropdown">
+							<li class="header__menu-item"><a href="./faq.html" class="header__link">FAQ</a></li>
+							<li class="header__menu-item"><a href="./registration.html" class="header__link">Как
+									заказать</a></li>
+						</ul>
+					</li>
+					<li class="header__menu-item"><a href="./fleet.html" class="header__link">флот</a></li>
+					<li class="header__menu-item"><a href="./contacts.html" class="header__link">контакты</a></li>
+				</ul>
+			</nav>
+			<div class="header__contacts">
+				<p class="header__number">+7 (985) 811-22-22</p>
+				<a href="#" class="header__social-link"><img src="./images/telegram.svg" alt="Логотип Telegram"
+						class="header__social-icon"></a>
+				<a href="#" class="header__social-link"><img src="./images/whatsapp.svg" alt="Логотип WhatsApp"
+						class="header__social-icon"></a>
+				<a href="#" class="header__social-link"><img src="./images/instagram.svg" alt="Логотип Instagram"
+						class="header__social-icon"></a>
+			</div>
+		</div>
+		<h1 class="header__title header__title_page_fleet">Флот</h1>
+	</header>
+
+	<main class="content">
+		<section class="plane">
+			<div class="plane__container">
+				<h2 class="plane__title">CESSNA 421 GOLDEN EAGLE</h2>
+				<ul class="plane__chars">
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">длина</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">11,1 м</p>
+					</li>
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">размах крыльев</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">12,64 м</p>
+					</li>
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">количество мест</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">4-5</p>
+					</li>
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">максимальная высота полета</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">7500 м</p>
+					</li>
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">максимальная скорость</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">440 км/ч</p>
+					</li>
+					<li class="plane__chars-row">
+						<p class="plane__chars-txt">максимальная дальность полета</p>
+						<span class="plane__line"></span>
+						<p class="plane__chars-txt">2000 км</p>
+					</li>
+				</ul>
+				<div class="plane__buttons">
+					<button type="button"
+						class="plane__button plane__button_first plane__button_active">экстерьер</button>
+					<button type="button" class="plane__button plane__button_second">интерьер</button>
+					<span class="plane__button-focus"></span>
+				</div>
+				<div class="plane__block plane__block_active plane__block_exterior">
+					<div class="plane__swiper swiper">
+						<ul class="plane__wrapper swiper-wrapper">
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/slider__photo.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+						</ul>
+						<span class="plane__pagination plane__pagination"></span>
+					</div>
+					<span class="plane__swiper-button plane__swiper-button_next"></span>
+					<span class="plane__swiper-button plane__swiper-button_prev"></span>
+				</div>
+				<div class="plane__block plane__block_interior">
+					<div class="plane__swiper swiper">
+						<ul class="plane__wrapper swiper-wrapper">
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+							<li class="plane__swiper-slide swiper-slide">
+								<img src="./images/plane__test.jpg" alt="Фото самолёта снаружи" class="plane__photo">
+							</li>
+						</ul>
+						<span class="plane__pagination plane__pagination_exterior"></span>
+					</div>
+					<span class="plane__swiper-button plane__swiper-button_next"></span>
+					<span class="plane__swiper-button plane__swiper-button_prev"></span>
+				</div>
+			</div>
+			<div class="plane__scheme">
+				<img src="./images/scheme__1.svg" alt="Схема самолёта" class="plane__scheme-1">
+				<img src="./images/scheme__2.svg" alt="Схема кабины" class="plane__scheme-2">
+			</div>
+		</section>
+		<section class="fleet">
+			<div class="fleet__content">
+				<div class="fleet__container">
+					<p class="fleet__txt">
+						Cessna 421 Golden Eagle - это американский многофункциональный самолет бизнес авиации, который
+						выпускается фирмой “Cessna Aircraft” и является самым большим и быстрым из линейки
+						двухдвигательных турбопоршневых самолетов Cessna. Сверхпрочные стойки шасси дают возможность
+						совершать посадку на коротких и грунтовых взлетно-посадочных полосах
+					</p>
+					<img src="./images/fleet__photo-1.jpg" alt="Фотография самолёта" class="fleet__photo">
+				</div>
+				<span class="fleet__line"></span>
+				<div class="fleet__container">
+					<img src="./images/fleet__photo-2.jpg" alt="Фотография самолёта" class="fleet__photo">
+					<p class="fleet__txt">
+						Cessna 421 Golden Eagle - это американский многофункциональный самолет бизнес авиации, который
+						выпускается фирмой “Cessna Aircraft” и является самым большим и быстрым из линейки
+						двухдвигательных турбопоршневых самолетов Cessna. Сверхпрочные стойки шасси дают возможность
+						совершать посадку на коротких и грунтовых взлетно-посадочных полосах
+					</p>
+				</div>
+				<span class="fleet__line"></span>
+				<div class="fleet__container">
+					<p class="fleet__txt">
+						Cessna 421 Golden Eagle - это американский многофункциональный самолет бизнес авиации, который
+						выпускается фирмой “Cessna Aircraft” и является самым большим и быстрым из линейки
+						двухдвигательных турбопоршневых самолетов Cessna. Сверхпрочные стойки шасси дают возможность
+						совершать посадку на коротких и грунтовых взлетно-посадочных полосах
+					</p>
+					<img src="./images/fleet__photo-3.jpg" alt="Фотография самолёта" class="fleet__photo">
+				</div>
+			</div>
+		</section>
+		<div class="questions">
+			<p class="questions__txt-qst">Остались вопросы?</p>
+			<a href="./faq.html" class="questions__link">F.A.Q.</a>
+			<button class="questions__button button popup-btn">позвонить</button>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__logos">
+				<img src="./images/footer__logo-1.png" alt="Логотип Eagle Flight" class="footer__logo-1">
+				<a href="./index.html" class="footer__link"><img src="./images/footer__logo-2.svg"
+						alt="Логотип Eagle Flight" class="footer__logo-2"></a>
+			</div>
+			<nav class="footer__nav">
+				<ul class="footer__menu">
+					<li class="footer__menu-item"><a href="./about.html" class="footer__link">о нас</a></li>
+					<li class="footer__menu-item"><a href="./fleet.html" class="footer__link">флот</a></li>
+					<li class="footer__menu-item"><a href="./contacts.html" class="footer__link">контакты</a></li>
+					<li class="footer__menu-item"><a href="./faq.html" class="footer__link">f.a.q.</a></li>
+				</ul>
+			</nav>
+			<div class="footer__contacts">
+				<p class="footer__number">+7 (985) 811-22-22</p>
+				<a href="#" class="footer__social-link"><img src="./images/footer__telagram.svg" alt="Логотип Telegram"
+						class="footer__social-icon"></a>
+				<a href="#" class="footer__social-link"><img src="./images/footer__whatsapp.svg" alt="Логотип WhatsApp"
+						class="footer__social-icon"></a>
+				<a href="#" class="footer__social-link"><img src="./images/footer__instagram.svg"
+						alt="Логотип Instagram" class="footer__social-icon"></a>
+			</div>
+		</div>
+	</footer>
+	<div class="popup popup_type_form">
+		<div class="popup__container">
+			<div class="popup__content">
+				<h2 class="popup__title">Оставьте заявку</h2>
+				<p class="popup__subtitle">Наш менеджер свяжется с Вами для уточнения всех деталей</p>
+				<form name="popup-form" class="popup__form">
+					<fieldset class="popup__form-container">
+						<label for="name" class="popup__label">Имя</label>
+						<input type="text" class="popup__input popup__input_type_name" placeholder="Сергей Воронцов"
+							name="name">
+						<label for="phone" class="popup__label">Номер телефона</label>
+						<input type="number" class="popup__input popup__input_type_phone"
+							placeholder="+7 (999) 999-99-99" name="phone">
+						<button type="submit" class="popup__button">отправить</button>
+					</fieldset>
+					<a href="#" class="popup__link">Политика обработки данных</a>
+				</form>
+			</div>
+			<button type="button" class="popup__close"></button>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	<script src="./scripts/swiper.js"></script>
+	<script src="./scripts/index.js"></script>
+	<script src="./scripts/form.js"></script>
+</body>
+
+</html>

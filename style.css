@@ -170,8 +170,6 @@
 	background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
 }
 
 .header__title_page_index {
@@ -194,6 +192,11 @@
 .header__title_page_registration {
 	max-width: 786px;
 	margin: 109px auto 121px;
+}
+
+.header__title_page_fleet {
+	max-width: 309px;
+	margin: 108px auto 68px;
 }
 
 .header__txt-block {
@@ -1376,4 +1379,43 @@
 .rent__line {
 	display: block;
 	border-left: 1px solid #fff;
+}
+
+.fleet__content {
+	max-width: 1167px;
+	margin: 0 auto;
+}
+
+.fleet__container {
+	margin-top: 143px;
+	margin-bottom: 93px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fleet__txt {
+	margin: 0;
+	max-width: 531px;
+	background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 123%;
+}
+
+.fleet__photo {
+	border-radius: 10px;
+	display: block;
+	object-fit: cover;
+	width: 547px;
+	height: 270px;
+}
+
+.fleet__line {
+	width: 368px;
+	display: block;
+	border-bottom: 1px solid #fff;
+	margin: 77px auto 63px;
 }
