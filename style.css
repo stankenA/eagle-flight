@@ -186,6 +186,11 @@
 	border-bottom: 1px solid #fff;
 }
 
+.header__title_page_faq {
+	max-width: 249px;
+	margin: 125px auto 100px;
+}
+
 .header__txt-block {
 	position: relative;
 	z-index: 3;
@@ -1083,7 +1088,7 @@
 
 .about__container {
 	max-width: 680px;
-	margin: 0 auto;
+	margin: 0 auto 200px;
 }
 
 .about__txt {
@@ -1128,4 +1133,63 @@
 
 .about__photo {
 	border-radius: 10px;
+}
+
+.faq__content {
+	max-width: 65%;
+	margin: 0 auto 68px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.faq__container {
+	width: 934px;
+	box-sizing: border-box;
+	padding: 4px 0 4px 20px;
+	border-left: 1px solid #fff;
+	margin-bottom: 68px;
+}
+
+.faq__title {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 100%;
+	background: linear-gradient(63.55deg, #FFFFFF 21.06%, #AED3FF 105.55%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 0 30px;
+}
+
+.faq__txt {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 123%;
+	margin: 0;
+}
+
+.faq__link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.faq__link-index {
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 89%;
+	color: #00223C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 228px;
+	height: 45px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	border-radius: 10px;
+	transition: all .4s ease;
+}
+
+.faq__link-index:hover {
+	opacity: .6;
 }
