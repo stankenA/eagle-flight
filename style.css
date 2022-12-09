@@ -21,7 +21,8 @@
 
 .header_page_other {
 	margin-bottom: 85px;
-	background: url(./images/stars.png) no-repeat top -1061px left 25%;
+	background: url(./images/stars.png) no-repeat top -1061px left 25%,
+		url(./images/header__clouds_other.png) no-repeat top 0 left 66%;
 }
 
 .header__container {
