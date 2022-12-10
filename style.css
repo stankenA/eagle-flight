@@ -211,12 +211,7 @@
 	border-bottom: 1px solid #fff;
 }
 
-.header__title_page_faq {
-	max-width: 249px;
-	margin: 125px auto 100px;
-}
-
-.header__title_page_registration {
+.header__title .header__title_page_registration {
 	max-width: 786px;
 	margin: 109px auto 121px;
 }
