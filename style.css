@@ -1689,6 +1689,31 @@
 	.footer__menu {
 		margin-bottom: 20px;
 	}
+
+	.fleet__content {
+		max-width: 95%;
+	}
+
+	.fleet__container {
+		align-items: center;
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+
+	.fleet__photo {
+		width: 45%;
+		height: 100%;
+	}
+
+	.fleet__txt {
+		max-width: 50%;
+		font-size: 22px;
+	}
+
+	.fleet__line {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 }
 
 @media screen and (max-width: 1023px) {
@@ -1756,6 +1781,11 @@
 	.header__title_page_registration {
 		text-align: center;
 		margin-bottom: 80px;
+	}
+
+	.header__title_page_fleet {
+		text-align: center;
+		margin-bottom: 50px;
 	}
 
 	.header__plane {
@@ -1932,6 +1962,31 @@
 	.extra__block {
 		max-width: 95%;
 	}
+
+	.fleet__content {
+		max-width: 80%;
+	}
+
+	.fleet__txt {
+		max-width: 100%;
+		margin-bottom: 35px;
+	}
+
+	.fleet__photo {
+		width: 100%;
+	}
+
+	.fleet__container {
+		flex-direction: column;
+	}
+
+	.fleet__container_col-rev {
+		flex-direction: column-reverse;
+	}
+
+	.fleet__line {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1987,6 +2042,12 @@
 		margin-top: 50px;
 		margin-bottom: 56px;
 		font-weight: 250;
+	}
+
+	.header__title_page_fleet {
+		font-size: 48px;
+		font-weight: 250;
+		margin-bottom: 57px;
 	}
 
 	.header__marquee {
@@ -2529,5 +2590,19 @@
 
 	.questions_registration {
 		justify-content: space-around;
+	}
+
+	.fleet {
+		padding-top: 47px;
+	}
+
+	.fleet__txt {
+		font-size: 14px;
+		margin-bottom: 38px;
+	}
+
+	.fleet__line {
+		margin-top: 46px;
+		margin-bottom: 46px;
 	}
 }
