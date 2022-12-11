@@ -70,6 +70,10 @@
 	height: 43px;
 }
 
+.header__empty {
+	display: none;
+}
+
 .header__menu {
 	display: flex;
 	justify-content: space-between;
@@ -2014,15 +2018,23 @@
 			url(./images/header__clouds_other.png) no-repeat top 95% left 51%;
 	}
 
+	.header__empty {
+		display: block;
+		width: 23px;
+		height: 1px;
+		margin-right: auto;
+	}
+
 	.header__logo {
 		width: 87px;
 		height: 21px;
-		margin-left: 34vw;
+		margin-left: 0;
 	}
 
 	.header__menu-mobile {
 		width: 23px;
 		height: 13px;
+		margin-left: auto;
 	}
 
 	.header__title {
