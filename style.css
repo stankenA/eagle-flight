@@ -1200,6 +1200,9 @@
 
 .about__photo {
 	border-radius: 10px;
+	object-fit: cover;
+	width: 361px;
+	height: 262px;
 }
 
 .faq__content {
@@ -2472,6 +2475,11 @@
 	.about__signature {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.about__photo {
+		width: 100%;
+		height: 100%;
 	}
 
 	.faq__content {
