@@ -2453,6 +2453,10 @@
 		height: 24px;
 	}
 
+	.popup__link {
+		margin-top: 22px;
+	}
+
 	.about__container {
 		max-width: 89%;
 		margin-bottom: 0;
