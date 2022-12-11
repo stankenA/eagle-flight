@@ -1439,6 +1439,13 @@
 	width: 278px;
 }
 
+.rent__block-header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
 .rent__icon {
 	width: 39px;
 	height: 39px;
@@ -1746,6 +1753,11 @@
 		text-align: center;
 	}
 
+	.header__title_page_registration {
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
 	.header__plane {
 		width: 1128px;
 	}
@@ -1908,6 +1920,18 @@
 		width: 100%;
 	}
 
+	.rent {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.rent__container {
+		justify-content: space-around;
+	}
+
+	.extra__block {
+		max-width: 95%;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -1956,6 +1980,13 @@
 		font-weight: 250;
 		font-size: 48px;
 		margin-bottom: 50px;
+	}
+
+	.header__title_page_registration {
+		font-size: 48px;
+		margin-top: 50px;
+		margin-bottom: 56px;
+		font-weight: 250;
 	}
 
 	.header__marquee {
@@ -2390,5 +2421,113 @@
 		font-size: 20px;
 		width: 71%;
 		height: 45px;
+	}
+
+	.registration__number {
+		font-size: 16px;
+	}
+
+	.registration__txt {
+		font-size: 16px;
+	}
+
+	.registration__buttons {
+		margin-top: 16px;
+	}
+
+	.registration__button {
+		margin-right: 5%;
+		width: 45%;
+		font-size: 14px;
+		height: 34px;
+	}
+
+	.registration__link {
+		width: 45%;
+		font-size: 14px;
+		height: 34px;
+	}
+
+	.registration__block {
+		max-width: 85%;
+	}
+
+	.registration__line {
+		height: 49px;
+	}
+
+	.rent {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
+	.rent__title {
+		font-size: 20px;
+		margin-bottom: 46px;
+	}
+
+	.rent__container {
+		width: 76%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.rent__line {
+		display: none;
+	}
+
+	.rent__block {
+		width: 100%;
+		margin-bottom: 36px;
+	}
+
+	.rent__block-header {
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.rent__icon {
+		width: 21px;
+		height: 21px;
+		order: 2;
+	}
+
+	.rent__subtitle {
+		margin-right: 8px;
+		font-size: 20px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.rent__list-item {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+	.extra {
+		margin-bottom: 58px;
+	}
+
+	.extra__block {
+		margin-top: 45px;
+		max-width: 85%;
+	}
+
+	.extra__title {
+		font-size: 20px;
+		margin-bottom: 33px;
+	}
+
+	.extra__txt {
+		font-size: 12px;
+		margin-bottom: 14px;
+	}
+
+	.questions_registration {
+		justify-content: space-around;
 	}
 }
