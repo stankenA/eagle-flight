@@ -1594,6 +1594,10 @@
 		margin-right: 3%;
 	}
 
+	.header__title_page_contacts {
+		margin-bottom: 35px;
+	}
+
 	.header__plane {
 		width: 1358px;
 	}
@@ -1786,6 +1790,11 @@
 	.header__title_page_fleet {
 		text-align: center;
 		margin-bottom: 50px;
+	}
+
+	.header__title_page_contacts {
+		text-align: center;
+		margin-bottom: 35px;
 	}
 
 	.header__plane {
@@ -2048,6 +2057,11 @@
 		font-size: 48px;
 		font-weight: 250;
 		margin-bottom: 57px;
+	}
+
+	.header__title_page_contacts {
+		margin-top: 57px;
+		margin-bottom: 65px;
 	}
 
 	.header__marquee {
@@ -2588,7 +2602,7 @@
 		margin-bottom: 14px;
 	}
 
-	.questions_registration {
+	.questions_space-around {
 		justify-content: space-around;
 	}
 
@@ -2604,5 +2618,52 @@
 	.fleet__line {
 		margin-top: 46px;
 		margin-bottom: 46px;
+	}
+
+	.contacts__chars {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contacts__chars-txt {
+		font-size: 16px;
+	}
+
+	.contacts__map {
+		display: block;
+		width: 86%;
+		height: calc(100vw * .7);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contacts__line {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.contacts__line_mobile {
+		width: 56%;
+		flex-grow: 0;
+		order: -1;
+	}
+
+	.contacts__chars {
+		margin-bottom: 25px;
+	}
+
+	.contacts__chars-row:last-of-type {
+		flex-direction: column;
+	}
+
+	.contacts__chars-txt_mobile-header {
+		margin-top: 23px;
+		margin-bottom: 8px;
+	}
+
+	.contacts__chars-txt_mobile {
+		text-align: center;
+		max-width: 186px;
 	}
 }
