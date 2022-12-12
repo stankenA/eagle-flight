@@ -28,6 +28,10 @@
 	min-height: 100vh;
 }
 
+.page_popup-opened {
+	overflow: hidden;
+}
+
 .header {
 	position: relative;
 	overflow: hidden;

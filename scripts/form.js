@@ -7,28 +7,33 @@ const allPopupCloseBtn = document.querySelectorAll('.popup__close');
 const allPopups = document.querySelectorAll('popup');
 
 function openPopup(popup) {
-  popup.classList.add('popup_opened')
+	popup.classList.add('popup_opened');
+	page.classList.add('page_popup-opened');
 };
 
 function closePopup(popup) {
-  popup.classList.remove('popup_opened');
+	popup.classList.remove('popup_opened');
+	page.classList.remove('page_popup-opened');
 };
 
 function handlePopupForm(evt) {
-  evt.preventDefault();
-  closePopup(popupForm);
+	evt.preventDefault();
+	closePopup(popupForm);
+	page.classList.remove('page_popup-opened');
 };
 
 allPopupFormButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    openPopup(popupForm);
-  })
+	button.addEventListener('click', () => {
+		openPopup(popupForm);
+		page.classList.add('page_popup-opened');
+	})
 });
 
 allPopupCloseBtn.forEach((button) => {
-  button.addEventListener('click', (evt) => {
-    evt.target.closest('.popup_opened').classList.remove('popup_opened');
-  })
+	button.addEventListener('click', (evt) => {
+		evt.target.closest('.popup_opened').classList.remove('popup_opened');
+		page.classList.remove('page_popup-opened');
+	})
 });
 
 popupFormElement.addEventListener('submit', handlePopupForm);
