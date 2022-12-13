@@ -1174,7 +1174,7 @@
 	line-height: 120%;
 }
 
-.about__txt:last-of-type {
+.about__txt:last-child {
 	margin-bottom: 0;
 }
 
