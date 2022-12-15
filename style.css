@@ -2442,6 +2442,7 @@
 		font-size: 48px;
 		margin-top: 35px;
 		margin-bottom: 38px;
+		font-weight: 250;
 	}
 
 	.header__title_page_faq {
@@ -2467,6 +2468,7 @@
 	.header__title_page_contacts {
 		margin-top: 57px;
 		margin-bottom: 65px;
+		font-weight: 250;
 	}
 
 	.header__marquee {
